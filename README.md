@@ -60,12 +60,12 @@ Make sure about all composer dependencies are installed already.
 $ composer install
 ```
 
-### windows
+### Usage under windows
 ```shell
 $ vendor/bin/phpunit​.bat
 ```
 
-### linux
+### Usage under linux
 ```shell
 $ vendor/bin/phpunit
 ```
