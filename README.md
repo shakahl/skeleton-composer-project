@@ -4,16 +4,18 @@ This is a skeleton project for PHP based Composer package repositories.
 
 ## Table of contents
 
-- [Features overview](#features-overview)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage example](#usage-example)
-- [Unit testing with PHPUnit](#unit-testing-with-phpunit)
-- [Known Bugs](#known-bugs)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [Donation](#donation)
-- [License](#license)
+* [Features overview](#features-overview)
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Usage example](#usage-example)
+    - [windows](#windows)
+    - [linux](#linux)
+* [Unit testing with PHPUnit](#unit-testing-with-phpunit)
+* [Known Bugs](#known-bugs)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [Donation](#donation)
+* [License](#license)
 
 ## Features overview
 
@@ -41,6 +43,8 @@ You can also add the package using `composer require shakahl/skeleton-composer-p
 
 ## Configuration
 
+Not any :)
+
 ## Usage example
 
 ```php
@@ -56,12 +60,12 @@ Make sure about all composer dependencies are installed already.
 $ composer install
 ```
 
-under **windows**:
+### windows
 ```shell
 $ vendor/bin/phpunit​.bat
 ```
 
-under **linux**:
+### linux
 ```shell
 $ vendor/bin/phpunit
 ```
