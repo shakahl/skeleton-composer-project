@@ -8,8 +8,8 @@ This is a skeleton project for PHP based Composer package repositories.
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [Usage example](#usage-example)
-    - [windows](#windows)
-    - [linux](#linux)
+    - [Usage under Windows](#usage-under-windows)
+    - [Usage under Linux](#usage-under-linux)
 * [Unit testing with PHPUnit](#unit-testing-with-phpunit)
 * [Known Bugs](#known-bugs)
 * [Contributing](#contributing)
@@ -60,12 +60,12 @@ Make sure about all composer dependencies are installed already.
 $ composer install
 ```
 
-### Usage under windows
+### Usage under Windows
 ```shell
 $ vendor/bin/phpunit​.bat
 ```
 
-### Usage under linux
+### Usage under Linux
 ```shell
 $ vendor/bin/phpunit
 ```
