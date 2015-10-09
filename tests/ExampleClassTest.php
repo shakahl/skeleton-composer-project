@@ -17,6 +17,7 @@ namespace Example\TestCases;
  */
 
 use Example\ExampleClass;
+use PHPUnit_Framework_TestCase;
 
 /**
  * 
@@ -32,7 +33,10 @@ class ExampleClassTest extends PHPUnit_Framework_TestCase
 	 */
 	public function testExampleLibraryFunction()
 	{
-		$this->assertEquals(true, true);
+		$obj = new ExampleClass(null);
+		$className = get_class($obj);
+
+		$this->assertEquals(ExampleClass::class, $className);
 	}
 }
 
