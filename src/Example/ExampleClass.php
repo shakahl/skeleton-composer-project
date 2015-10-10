@@ -11,7 +11,7 @@ namespace Example;
  *
  * MIT Licensed
  * 
- * @category  Skeletion
+ * @category  Skeleton
  * @package   Example
  * @author    Soma Szélpál <szelpalsoma@gmail.com>
  * @license   MIT Open Source License http://opensource.org/osi3.0/licenses/mit-license.php
