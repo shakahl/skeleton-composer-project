@@ -21,7 +21,7 @@ This is a skeleton project for PHP based Composer package repositories.
 
 - DRY concept
 - Unit testing with [PHPUnit](https://phpunit.de/)
-- Another feature
+- CLI commands with [Symphony Console Component][symfony-console]
 
 ## Installation
 
@@ -95,4 +95,4 @@ This project is released under the [MIT License][opensource].
 [shakahl]: https://github.com/shakahl/
 [contributors]: https://github.com/shakahl/skeleton-composer-project/graphs/contributors
 [opensource]: http://www.opensource.org/licenses/MIT
-
+[symfony-console]: http://symfony.com/doc/current/components/console/introduction.html
