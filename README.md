@@ -5,6 +5,7 @@ This is a skeleton project for PHP based Composer package repositories.
 ## Table of contents
 
 * [Features overview](#features-overview)
+* [Requirements](#requirements)
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [Usage example](#usage-example)
@@ -19,9 +20,17 @@ This is a skeleton project for PHP based Composer package repositories.
 
 ## Features overview
 
-- DRY concept
-- Unit testing with [PHPUnit](https://phpunit.de/)
-- CLI commands with [Symphony Console Component][symfony-console]
+* DRY concept
+* Unit testing with [PHPUnit](https://phpunit.de/)
+** CLI commands with [Symphony Console Component][symfony-console]
+
+## Requirements
+
+The following versions of PHP are supported by this version.
+
+* PHP 5.5
+* PHP 5.6
+* HHVM
 
 ## Installation
 
