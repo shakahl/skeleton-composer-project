@@ -9,9 +9,7 @@ This is a skeleton project for PHP based Composer package repositories.
 * [Installation](#installation)
 * [Configuration](#configuration)
 * [Usage example](#usage-example)
-    - [Usage under Windows](#usage-under-windows)
-    - [Usage under Linux](#usage-under-linux)
-* [Unit testing with PHPUnit](#unit-testing-with-phpunit)
+* [Tests](#tests)
 * [Known Bugs](#known-bugs)
 * [Contributing](#contributing)
 * [Credits](#credits)
@@ -28,8 +26,7 @@ This is a skeleton project for PHP based Composer package repositories.
 
 The following versions of PHP are supported by this version.
 
-* PHP 5.5
-* PHP 5.6
+* PHP 7.0
 * HHVM
 
 ## Installation
@@ -62,30 +59,47 @@ Not any :)
 ?>
 ```
 
-## Unit testing with PHPUnit
+## Tests
 
-Make sure about all composer dependencies are installed already.
-```shell
-$ composer install
+To execute the test suite, you'll need phpunit.
+
+```bash
+$ composer test
 ```
 
-### Usage under Windows
-```shell
-$ vendor/bin/phpunit​.bat
+or
+
+```bash
+$ php vendor/bin/phpunit
 ```
 
-### Usage under Linux
-```shell
-$ vendor/bin/phpunit
+To just validate code style, you can use [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
+
+```bash
+$ php vendor/bin/phpcs
+```
+
+or
+
+```bash
+$ composer phpcs
 ```
 
 ## Known Bugs
 
 There aren't any known issues yet.
 
+## Documentation
+
+The documentation for this project is available on the [Github wiki](https://github.com/shakahl/skeleton-composer-project/wiki).
+
+## Issues
+
+Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/shakahl/skeleton-composer-project/issues).
+
 ## Contributing
 
-See `CONTRIBUTING.md` file.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for information.
 
 ## Credits
 

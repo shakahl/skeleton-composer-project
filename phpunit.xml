@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit backupGlobals="false"
-         backupStaticAttributes="false"
-         bootstrap="phpunit.php"
-         colors="true"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         processIsolation="false"
-         stopOnError="false"
-         stopOnFailure="false"
-         syntaxCheck="true"
-         verbose="true"
->
+<phpunit bootstrap="./tests/bootstrap.php"
+         colors="true">
     <testsuites>
-        <testsuite name="Example Test Suite">
-            <directory suffix="Test.php">./tests</directory>
+        <testsuite>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
-    <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src</directory>
-            <exclude>                
-            </exclude>
-        </whitelist>
-    </filter>
 </phpunit>
